@@ -30,7 +30,7 @@ I had the idea to develop this application during a challenge on the 2022 SANS C
 ```Bash
 >>> Piping
 
-$ tshark -nr [pcap filename] -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py
+tshark -nr [pcap filename] -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py
 
 >>> Redirection
 
@@ -83,7 +83,7 @@ Find complete help with the option/argument --help/-h
 > Clone the repo with the following from a terminal :
 
 ```Bash
-$ git clone https://github.com/camarh/domain_extractor
+git clone https://github.com/camarh/domain_extractor_py
 ```
 
 <br/>
@@ -91,7 +91,7 @@ $ git clone https://github.com/camarh/domain_extractor
 > From a terminal, run the following command :
 - For result formatted in table (default)
 ```Bash
-$ tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py
+tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py
 ```
 ![visual_table](img/visual_table.jpg)
 
@@ -99,7 +99,7 @@ $ tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certi
 
 - For result formatted in list
 ```Bash
-$ tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py -f list
+tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certificate' -V | python3 domain_extractor.py -f list
 ```
 ![visual_list](img/visual_list.jpg)
 
