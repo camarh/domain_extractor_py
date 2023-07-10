@@ -112,7 +112,7 @@ $ tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certi
 
 #
 ### Project Info
-# 
+#
 
 <div>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creation date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Programming language</div>
 
@@ -129,14 +129,14 @@ $ tshark -nr 2020-09-24-Dridex-infection-traffic.pcap -2 -R 'tls.handshake.certi
 
 #
 If you enjoy this project, give it a
-[![golden_star](img/golden_star.png)](https://github.com/camarh/domain_extractor/stargazers)
+[![golden_star](img/star.png)](https://github.com/camarh/domain_extractor/stargazers)
 
 
-# 
+#
 
 © 2023-2023 Camar H.
 
-# 
+#
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 ![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)
